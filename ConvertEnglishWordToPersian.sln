@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertEnglishWordToPersian", "src\ConvertEnglishWordToPersian\ConvertEnglishWordToPersian.csproj", "{87394DE6-8FDF-47E8-8819-20BE39870973}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7F020EAB-1853-4B13-93B2-F6F577CEC1EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{38D6588F-5F1A-4EC2-8286-72DE70C50E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertEnglishWordToPersian.Unit.Tests", "test\ConvertEnglishWordToPersian.Unit.Tests\ConvertEnglishWordToPersian.Unit.Tests.csproj", "{03969B34-E360-4276-A43C-27078F5862DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87394DE6-8FDF-47E8-8819-20BE39870973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87394DE6-8FDF-47E8-8819-20BE39870973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87394DE6-8FDF-47E8-8819-20BE39870973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87394DE6-8FDF-47E8-8819-20BE39870973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03969B34-E360-4276-A43C-27078F5862DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03969B34-E360-4276-A43C-27078F5862DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03969B34-E360-4276-A43C-27078F5862DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03969B34-E360-4276-A43C-27078F5862DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87394DE6-8FDF-47E8-8819-20BE39870973} = {7F020EAB-1853-4B13-93B2-F6F577CEC1EB}
+		{03969B34-E360-4276-A43C-27078F5862DE} = {38D6588F-5F1A-4EC2-8286-72DE70C50E7A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {204ED9DE-8C02-4772-B289-BB11A92D0CDE}
+	EndGlobalSection
+EndGlobal
